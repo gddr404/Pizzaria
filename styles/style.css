@@ -1,0 +1,283 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --regular: 'Montserrat regular';
+    --f-black: 'Montserrat black';
+    --bold: 'Montserrat bold';
+    --f-light: 'Montserrat light';
+    --thin: 'Montserrat thin';
+    --main-grd: linear-gradient(to bottom,#6ad017, #3d8601);
+    --main-color: #6ad017;
+    --menu-color: #68cd16;
+    --op-txt: #bdbdbd;
+    --girl-name: #a6a6a6;
+    --white: white;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-start{
+    justify-content: start;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+align-items: flex-start;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+/* ========================================== settings end ========================================== */
+
+header {
+    background: url(../img/banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 81px;
+}
+
+nav {
+    padding-top: 30px;
+}
+
+.cont {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.logo a {
+    font-family: var(--bold);
+    font-size: 24px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.right-nav a:nth-child(1) {
+    font-family: var(--regular);
+    font-size: 24px;
+    color: var(--white);
+    margin-right: 76px;
+    text-decoration: none;
+}
+
+.right-nav a:nth-child(2) {
+    font-family: var(--regular);
+    font-size: 16px;
+    color: var(--white);
+    padding: 18px 27px 17px 26px;
+    background: var(--main-color);
+    border-radius: 25px;
+    line-height: 9px;
+    text-decoration: none;
+}
+
+.main-head p:nth-child(1) {
+    font-family: var(--f-black);
+    font-size: 18px;
+    color: white;
+    line-height: 13px;
+    margin-bottom: 33px;
+}
+
+.main-head h1 {
+    font-family: var(--f-black);
+    font-size: 72px;
+    color: var(--white);
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+.main-head p:nth-child(3) {
+    font-family: var(--regular);
+    font-size: 18px;
+    color: white;
+    line-height: 13px;
+    margin-bottom: 50px;
+}
+
+.main-head a {
+    font-family: var(--regular);
+    font-size: 16px;
+    color: var(--white);
+    padding: 18px 27px 17px 26px;
+    background: var(--main-grd);
+    border-radius: 25px;
+    line-height: 9px;
+    text-decoration: none
+}
+
+.right-desc h2 {
+    font-family: var(--bold);
+    font-size: 36px;
+    color: var(--main-color);
+    margin-bottom: 64px;
+}
+
+.right-desc p {
+    font-family: var(--regular);
+    font-size: 18px;
+    color: var(--op-txt);
+    line-height: 36px;
+}
+
+.signature {
+    width: 448px;
+}
+
+.signature p {
+    font-family: var(--bold);
+}
+
+.desc {
+    margin-bottom: 88px;
+}
+
+.menu p {
+    font-family: var(--bold);
+    font-size: 36px;
+    color: var(--menu-color);
+    margin-bottom: 50px;
+}
+
+.left-m-cont img {
+    margin-right: 32px;
+}
+
+.left-m-cont {
+    margin-bottom: 50px;
+}
+
+.decs-menu {
+    width: 306px;
+}
+
+.decs-menu h3 {
+    font-family: var(--bold);
+    font-size: 30px;
+    color: var(--op-txt);
+    margin-bottom: 30px;
+}
+
+.decs-menu p {
+    font-family: var(--regular);
+    font-size: 14px;
+    color: var(--op-txt);
+    line-height: 24px;
+}
+
+.buy-pizza {
+    text-align: right;
+}
+
+.buy-pizza span{
+    font-family: var(--bold);
+    color: var(--op-txt);
+    font-size: 30px;
+}
+
+.buy-pizza p {
+    font-family: var(--f-light);
+    color: var(--op-txt);
+    font-size: 18px;
+}
+
+.buy-pizza a {
+    font-family: var(--regular);
+    font-size: 16px;
+    color: var(--white);
+    padding: 18px 27px 17px 26px;
+    background: var(--main-grd);
+    border-radius: 25px;
+    line-height: 9px;
+    text-decoration: none
+}
+
+.col-1 img{
+    margin-bottom: 28px;
+}
+
+.col-1 h3 {
+    text-align: center;
+    font-size: 14px;
+    line-height: 34px;
+    color: var(--girl-name);
+    font-family: var(--bold);
+}
+
+.col-1 p {
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    color: var(--girl-name);
+    font-family: var(--regular);
+}
+
+footer {
+    background: black;
+    padding: 47px 0 55px;
+}
+
+.logo {
+    font-family: var(--bold);
+    font-size: 24px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.phone {
+    text-decoration: none;
+    font-family: var(--regular);
+    font-size: 24px;
+    color: var(--white);
+}
+
+footer p {
+    font-family: var(--thin);
+    font-size: 16px;
+    color: var(--white);
+    text-align: center;
+}
+
+.footer-right a:nth-child(2) {
+    font-family: var(--regular);
+    font-size: 16px;
+    color: var(--white);
+    padding: 18px 27px 17px 26px;
+    background: var(--main-color);
+    border-radius: 25px;
+    line-height: 9px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.footer-cont {
+    margin-bottom: 63px;
+}
